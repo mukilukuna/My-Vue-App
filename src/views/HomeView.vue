@@ -5,8 +5,7 @@
       <div class="title">Caring is in our nature</div>
     </div>
     <div class="description">Welkom bij de Real Estate Care Website</div>
-    
-    <!-- Voeg de CustomerList component hier toe -->
+
     <CustomerList />
   </div>
 </template>
@@ -21,14 +20,14 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 .home {
-  background-color: rgba(118, 183, 180, 0); /* Zachte grijze achtergrond */
+  background-color: rgba(0,170,162,0); /* Blauwe achtergrondkleur */
   text-align: center;
   padding: 40px;
-  border: 1px solid #E0E0E0; /* Subtiele rand */
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lichte schaduw */
+  box-shadow: 0 4px 8px rgba(0,170,162,0); /* Lichte schaduw */
 }
 
 .header {
@@ -39,19 +38,21 @@ export default {
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
-  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
 }
 
 .title {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: bold;
-  color: rgba(41, 52, 57, 0.0); /* Tekstkleur gewijzigd naar rgba(41,52,57,0.0) */
+  color: #666; /* Lichte grijstint voor de tekstkleur */
+  margin-top: 20px;
 }
 
 .description {
   font-size: 18px;
-  color: rgba(41, 52, 57, 0.0); /* Tekstkleur gewijzigd naar rgba(41,52,57,0.0) */
+  color: #666; /* Lichte grijstint voor de tekstkleur */
+  margin-top: 10px;
 }
 </style>
