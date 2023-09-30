@@ -1,5 +1,11 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import AboutView from '../views/AboutView.vue'
+import ContactView from '../views/ContactView.vue'
+import ReportsView from '../views/ReportsView.vue' // Nieuwe view voor Toegewezen rapportages
+import DocumentationView from '../views/DocumentationView.vue' // Nieuwe view voor Kennisbase Documentatie
+import SettingsView from '../views/SettingsView.vue' // Nieuwe view voor Instellingen
+import LoginView from '../views/LoginView.vue' // Nieuwe view voor Login
 
 const routes = [
   {
@@ -10,10 +16,32 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: AboutView
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: ContactView
+  },
+  {
+    path: '/reports', // Nieuwe route voor Toegewezen rapportages
+    name: 'reports',
+    component: ReportsView
+  },
+  {
+    path: '/documentation', // Nieuwe route voor Kennisbase Documentatie
+    name: 'documentation',
+    component: DocumentationView
+  },
+  {
+    path: '/settings', // Nieuwe route voor Instellingen
+    name: 'settings',
+    component: SettingsView
+  },
+  {
+    path: '/login', // Nieuwe route voor Login
+    name: 'login',
+    component: LoginView
   }
 ]
 

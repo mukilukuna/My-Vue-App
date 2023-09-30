@@ -1,21 +1,34 @@
 <template>
     <div>
-        <h2>Dashboard</h2>
-        <ul>
-            <li>Toegewezen rapportages</li>
-            <li>Kennisbase Documentatie</li>
-            <li>Instellingen</li>
-            <li>Login</li>
-        </ul>
+      <h2>Dashboard</h2>
+      <ul>
+        <li><router-link to="/reports">Toegewezen rapportages</router-link></li>
+        <li><router-link to="/documentation">Kennisbase Documentatie</router-link></li>
+        <li><router-link to="/settings">Instellingen</router-link></li>
+        <li><router-link to="/login">Login</router-link></li>
+      </ul>
     </div>
-</template>
+  </template>
+  
 <script>
     export default {
         name: 'CustomerList'
     }
 </script>
-<style scoped>
-div{
-    text-align: left;
+<style>
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a.active {
+  font-weight: bold;
 }
 </style>
