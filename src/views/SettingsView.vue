@@ -1,7 +1,18 @@
 <template>
   <div class="settings">
     <h2>Instellingen</h2>
-    <!-- Voeg hier de inhoud toe voor Instellingen -->
+    <div>
+      <h3>Accountgegevens</h3>
+      <p><strong>Gebruikersnaam:</strong> KBouter</p>
+      <p><strong>Naam:</strong> Karel Bouter</p>
+      <p><strong>Email:</strong> KarelBouter@example.com</p>
+
+    </div>
+    <div>
+      <h3>Voorkeuren</h3>
+      <p><strong>Interface-thema:</strong> Donker</p>
+      <p><strong>Meldingen:</strong> Ingeschakeld</p>
+    </div>
   </div>
 </template>
 

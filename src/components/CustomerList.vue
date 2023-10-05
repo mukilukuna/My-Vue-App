@@ -5,7 +5,7 @@
         <li>
           <router-link to="/reports" class="menu-item">
             <div class="icon reports-icon"></div>
-            <div class="menu-text">Toegewezen rapportages</div>
+            <div class="menu-text">Rapportages</div>
           </router-link>
         </li>
         <li>

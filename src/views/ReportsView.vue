@@ -1,23 +1,61 @@
 <template>
   <div class="reports">
-    <h2>Toegewezen rapportages</h2>
-    <p>Hier vind je je toegewezen rapportages.</p>
+    <h2>Rapportages</h2>
+    <p>Hier vind je de rapportages.</p>
+
+    <h3>Uitgevoerde Inspecties</h3>
+    <ul>
+      <li v-for="(inspection, index) in executedInspections" :key="index">
+        <p><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
+        <p><strong>Locatie:</strong> {{ inspection.location }}</p>
+        <p><strong>Inspecteur:</strong> {{ inspection.inspector }}</p>
+      </li>
+    </ul>
+
+    <h3>Openstaande Inspecties</h3>
+    <ul>
+      <li v-for="(inspection, index) in pendingInspections" :key="index">
+        <p><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
+        <p><strong>Locatie:</strong> {{ inspection.location }}</p>
+        <!-- Voeg hier meer gegevens toe voor openstaande inspecties -->
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ReportsView'
-}
+  name: 'ReportsView',
+  data() {
+    return {
+      executedInspections: [
+        {
+          date: '2023-10-10',
+          location: 'Den Haag',
+          inspector: 'Karel Bouter',
+        },
+        {
+          date: '2023-10-12',
+          location: 'Amsterdam',
+          inspector: 'Jan-Willem de derde',
+        },
+      ],
+      pendingInspections: [
+        {
+          date: '2023-10-15',
+          location: 'Rotterdam',
+
+        },
+        {
+          date: '2023-10-20',
+          location: 'Utrecht',
+
+        },
+      ],
+    };
+  },
+};
 </script>
-
-<style scoped>
-.reports {
-  padding: 10px;
-  font-size: 14px;
-}
-</style>
-
 
 <style scoped>
 .reports {
