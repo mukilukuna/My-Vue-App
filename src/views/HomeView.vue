@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <div class="header">
-      <img class="logo" alt="Real Estate Care Logo" src="../assets/logo.png">
       <div class="title">Caring is in our nature</div>
     </div>
     <div class="description">Welkom bij de Real Estate Care Website</div>
