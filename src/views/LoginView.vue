@@ -47,9 +47,11 @@ export default {
 
 <style scoped>
 .login {
-  background-color: #f5f5f5;
+  background-color: rgba(0, 170, 162, 1);
+  /* Adjusted for visibility */
   padding: 20px;
-  border: 1px solid #999;
+  border: 1px solid rgba(41, 52, 57, 1);
+  /* Adjusted color for visibility */
   border-radius: 5px;
 }
 
@@ -59,22 +61,28 @@ export default {
 
 label {
   display: block;
+  color: rgba(41, 52, 57, 1);
+  /* Adjusted color for visibility */
 }
 
 input[type="text"],
 input[type="password"] {
   width: 100%;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(71, 94, 108, 1);
+  /* Adjusted color for visibility */
   border-radius: 3px;
+  background-color: #ffffff;
+  /* White background for text boxes */
 }
 
 button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: rgba(0, 170, 162, 1);
+  /* Adjusted for visibility */
+  color: rgba(41, 52, 57, 1);
+  /* Adjusted color for visibility */
   border: none;
   padding: 10px 20px;
   border-radius: 3px;
   cursor: pointer;
-}
-</style>
+}</style>

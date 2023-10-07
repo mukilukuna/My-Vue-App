@@ -56,13 +56,21 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 .reports {
-  background-color: #f0f0f0;
+  background-color: rgba(0, 170, 162, 1);
+  /* Adjusted opacity to 1 */
+  color: rgba(41, 52, 57, 1);
+  /* Adjusted opacity to 1 */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.reports h2,
+.reports h3 {
+  color: rgba(71, 94, 108, 1);
+  /* Adjusted opacity to 1 */
 }
 
 @media (max-width: 768px) {
@@ -70,5 +78,4 @@ export default {
     padding: 10px;
     font-size: 14px;
   }
-}
-</style>
+}</style>

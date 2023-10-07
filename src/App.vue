@@ -1,7 +1,11 @@
 <template>
   <v-app id="inspire">
-    <v-navigation-drawer v-model="drawer">
-      Real Estate Care
+    <v-navigation-drawer v-model="drawer" app color="rgba(41,52,57,1)">
+      <v-list-item-group>
+        <v-list-item-content>
+          <v-list-item-title class="headline">Real Estate Care</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item-group>
       <v-list>
         <v-list-item>
           <router-link to="/" exact>
@@ -21,9 +25,9 @@
       </v-list>
     </v-navigation-drawer>
 
-  <v-app-bar>
-    <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-  </v-app-bar>
+    <v-app-bar color="rgba(41,52,57,1)">
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+    </v-app-bar>
 
     <v-main>
       <router-view />

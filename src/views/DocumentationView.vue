@@ -44,8 +44,15 @@ export default {
 
 <style scoped>
 .documentation {
-  background-color: #f9f9f9;
+  background-color: rgba(0, 170, 162, 1);
+  color: rgba(41, 52, 57, 1);
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid rgba(71, 94, 108, 1);
   border-radius: 5px;
-}</style>
+}
+
+h2,
+h3 {
+  color: rgba(71, 94, 108, 1);
+}
+</style>

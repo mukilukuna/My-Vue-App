@@ -6,7 +6,6 @@
       <p><strong>Gebruikersnaam:</strong> KBouter</p>
       <p><strong>Naam:</strong> Karel Bouter</p>
       <p><strong>Email:</strong> KarelBouter@example.com</p>
-
     </div>
     <div>
       <h3>Voorkeuren</h3>
@@ -24,9 +23,11 @@ export default {
 
 <style scoped>
 .settings {
-  background-color: #e0e0e0;
+  background-color: rgba(0, 170, 162, 1);
+  /* Adjusted color from the PDF with opacity set to 1 */
   padding: 20px;
-  border: 1px solid #aaa;
+  border: 1px solid rgba(41, 52, 57, 1);
+  /* Adjusted color from the PDF with opacity set to 1 */
   border-radius: 5px;
 }
 </style>

@@ -44,9 +44,19 @@
         gemaakte oplossingen die aan uw specifieke behoeften voldoen.</li>
     </ul>
 
+    <p>
+      Bedankt voor uw interesse in RealEstateCare!
+    </p>
+  </div>
+</template>
 
+<style>
+  .about {
+    background-color: rgba(0,170,162,1);
+    color: rgba(41,52,57,1);
+  }
 
-  <p>
-    Bedankt voor uw interesse in RealEstateCare!
-  </p>
-</div></template>
+  h1, h2 {
+    color: rgba(71,94,108,1);
+  }
+</style>
