@@ -17,9 +17,9 @@
       <li v-for="(inspection, index) in pendingInspections" :key="index">
         <p><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
         <p><strong>Locatie:</strong> {{ inspection.location }}</p>
-        <!-- Voeg hier meer gegevens toe voor openstaande inspecties -->
       </li>
     </ul>
+
   </div>
 </template>
 
@@ -44,24 +44,21 @@ export default {
         {
           date: '2023-10-15',
           location: 'Rotterdam',
-
         },
         {
           date: '2023-10-20',
           location: 'Utrecht',
-
         },
       ],
     };
   },
 };
 </script>
+
 <style scoped>
 .reports {
   background-color: rgba(0, 170, 162, 1);
-  /* Adjusted opacity to 1 */
   color: rgba(41, 52, 57, 1);
-  /* Adjusted opacity to 1 */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -70,7 +67,6 @@ export default {
 .reports h2,
 .reports h3 {
   color: rgba(71, 94, 108, 1);
-  /* Adjusted opacity to 1 */
 }
 
 @media (max-width: 768px) {

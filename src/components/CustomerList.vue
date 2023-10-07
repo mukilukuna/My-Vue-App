@@ -78,9 +78,7 @@ nav {
 .menu-text {
   font-size: 16px;
   display: flex;
-  /* Maak de tekst een flex-container */
   align-items: center;
-  /* Verticaal centreren */
 }
 
 nav a.active {

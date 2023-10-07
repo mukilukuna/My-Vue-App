@@ -28,6 +28,11 @@
     <p>
       Leer hoe u uw accountgegevens kunt beheren, uw voorkeuren kunt instellen en meldingen kunt configureren.
     </p>
+    <h3>Relevante Bestanden</h3>
+    <p>
+      Achter dit scherm komen alle relevante bestanden te staan met betrekking tot de inspecties, van normbladen tot
+      testprocedures.
+    </p>
     <h3>Contact Opnemen</h3>
     <p>
       Als u vragen heeft of hulp nodig heeft bij het gebruik van onze diensten, aarzel dan niet om contact met ons op te

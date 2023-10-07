@@ -23,12 +23,10 @@ export default {
 <style scoped>
 .home {
   background-color: rgba(0, 170, 162, 1);
-  /* Adjusted opacity to 1 for visibility */
   text-align: center;
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(71, 94, 108, 0.5);
-  /* Adjusted color and opacity for visibility */
 }
 
 .header {
@@ -48,13 +46,11 @@ export default {
   font-size: 36px;
   font-weight: bold;
   color: rgba(41, 52, 57, 1);
-  /* Adjusted color for visibility */
   margin-top: 20px;
 }
 
 .description {
   font-size: 18px;
   color: rgba(41, 52, 57, 1);
-  /* Adjusted color for visibility */
   margin-top: 10px;
 }</style>
