@@ -2,10 +2,10 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ContactView from '../views/ContactView.vue'
-import ReportsView from '../views/ReportsView.vue' // Nieuwe view voor Toegewezen rapportages
-import DocumentationView from '../views/DocumentationView.vue' // Nieuwe view voor Kennisbase Documentatie
-import SettingsView from '../views/SettingsView.vue' // Nieuwe view voor Instellingen
-import LoginView from '../views/LoginView.vue' // Nieuwe view voor Login
+import ReportsView from '../views/ReportsView.vue'
+import DocumentationView from '../views/DocumentationView.vue'
+import SettingsView from '../views/SettingsView.vue'
+import LoginView from '../views/LoginView.vue'
 
 const routes = [
   {
@@ -24,22 +24,22 @@ const routes = [
     component: ContactView
   },
   {
-    path: '/reports', // Nieuwe route voor Toegewezen rapportages
+    path: '/reports',
     name: 'reports',
     component: ReportsView
   },
   {
-    path: '/documentation', // Nieuwe route voor Kennisbase Documentatie
+    path: '/documentation',
     name: 'documentation',
     component: DocumentationView
   },
   {
-    path: '/settings', // Nieuwe route voor Instellingen
+    path: '/settings',
     name: 'settings',
     component: SettingsView
   },
   {
-    path: '/login', // Nieuwe route voor Login
+    path: '/login',
     name: 'login',
     component: LoginView
   }
