@@ -1,25 +1,30 @@
 <template>
   <div class="reports">
-    <h2>Rapportages</h2>
-    <p>Hier vind je de rapportages.</p>
+    <header>
+      <h1 class="text-dark">Rapportages</h1>
+      <p class="text-dark">Hier vind je de rapportages.</p>
+    </header>
 
-    <h3>Uitgevoerde Inspecties</h3>
-    <ul>
-      <li v-for="(inspection, index) in executedInspections" :key="index">
-        <p><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
-        <p><strong>Locatie:</strong> {{ inspection.location }}</p>
-        <p><strong>Inspecteur:</strong> {{ inspection.inspector }}</p>
-      </li>
-    </ul>
+    <section aria-labelledby="executed-inspections-label">
+      <h2 id="executed-inspections-label" class="text-dark">Uitgevoerde Inspecties</h2>
+      <ul>
+        <li v-for="(inspection, index) in executedInspections" :key="index">
+          <p class="text-dark"><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
+          <p class="text-dark"><strong>Locatie:</strong> {{ inspection.location }}</p>
+          <p class="text-dark"><strong>Inspecteur:</strong> {{ inspection.inspector }}</p>
+        </li>
+      </ul>
+    </section>
 
-    <h3>Openstaande Inspecties</h3>
-    <ul>
-      <li v-for="(inspection, index) in pendingInspections" :key="index">
-        <p><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
-        <p><strong>Locatie:</strong> {{ inspection.location }}</p>
-      </li>
-    </ul>
-
+    <section aria-labelledby="pending-inspections-label">
+      <h2 id="pending-inspections-label" class="text-dark">Openstaande Inspecties</h2>
+      <ul>
+        <li v-for="(inspection, index) in pendingInspections" :key="index">
+          <p class="text-dark"><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
+          <p class="text-dark"><strong>Locatie:</strong> {{ inspection.location }}</p>
+        </li>
+      </ul>
+    </section>
   </div>
 </template>
 
@@ -64,8 +69,8 @@ export default {
   border-radius: 5px;
 }
 
-.reports h2,
-.reports h3 {
+.reports h1,
+.reports h2 {
   color: rgba(71, 94, 108, 1);
 }
 
@@ -74,4 +79,5 @@ export default {
     padding: 10px;
     font-size: 14px;
   }
-}</style>
+}
+</style>

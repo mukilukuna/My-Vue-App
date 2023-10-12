@@ -51,12 +51,13 @@
 </template>
 
 <style>
-  .about {
-    background-color: rgba(0,170,162,1);
-    color: rgba(41,52,57,1);
-  }
+.about {
+  background-color: rgba(0, 170, 162, 1);
+  color: rgb(3, 3, 3);
+}
 
-  h1, h2 {
-    color: rgba(71,94,108,1);
-  }
+h1,
+h2 {
+  color: rgba(71, 94, 108, 1);
+}
 </style>

@@ -1,11 +1,12 @@
 <template>
   <div class="home">
-    <div class="header">
-      <div class="title">Caring is in our nature</div>
-    </div>
-    <div class="description">Welkom bij de Real Estate Care Website</div>
-
-    <CustomerList />
+    <header>
+      <h1>Caring is in our nature</h1>
+    </header>
+    <main>
+      <div class="description">Welkom bij de Real Estate Care Website</div>
+      <CustomerList />
+    </main>
   </div>
 </template>
 
@@ -29,28 +30,23 @@ export default {
   box-shadow: 0 4px 8px rgba(71, 94, 108, 0.5);
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-.logo {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
-}
-
-.title {
+h1 {
   font-size: 36px;
   font-weight: bold;
-  color: rgba(41, 52, 57, 1);
+  color: rgb(0, 0, 0);
   margin-top: 20px;
 }
 
 .description {
   font-size: 18px;
-  color: rgba(41, 52, 57, 1);
+  color: rgb(0, 0, 0);
   margin-top: 10px;
-}</style>
+}
+</style>

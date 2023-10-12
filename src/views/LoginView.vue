@@ -1,20 +1,20 @@
 <template>
   <div class="login">
-    <h2>Login</h2>
+    <h2 style="color: black;">Login</h2>
     <form @submit.prevent="login">
       <div class="form-group">
-        <label for="username">Gebruikersnaam:</label>
+        <label for="username" style="color: black;">Gebruikersnaam:</label>
         <input type="text" id="username" v-model="username" required>
       </div>
       <div class="form-group">
-        <label for="password">Wachtwoord:</label>
+        <label for="password" style="color: black;">Wachtwoord:</label>
         <input type="password" id="password" v-model="password" required>
       </div>
       <div class="form-group">
-        <label for="otp">Verificatiecode (OTP):</label>
+        <label for="otp" style="color: black;">Verificatiecode (OTP):</label>
         <input type="text" id="otp" v-model="otp" required>
       </div>
-      <button type="submit">Inloggen</button>
+      <button type="submit" style="background-color: rgba(0, 170, 162, 1); color: black;">Inloggen</button>
     </form>
   </div>
 </template>
@@ -47,10 +47,10 @@ export default {
 <style scoped>
 .login {
   background-color: rgba(0, 170, 162, 1);
-
+  color: black;
+  /* Tekstkleur ingesteld op zwart */
   padding: 20px;
   border: 1px solid rgba(41, 52, 57, 1);
-
   border-radius: 5px;
 }
 
@@ -60,7 +60,8 @@ export default {
 
 label {
   display: block;
-  color: rgba(41, 52, 57, 1);
+  color: black;
+  /* Tekstkleur ingesteld op zwart */
 }
 
 input[type="text"],
@@ -74,7 +75,8 @@ input[type="password"] {
 
 button {
   background-color: rgba(0, 170, 162, 1);
-  color: rgba(41, 52, 57, 1);
+  color: black;
+  /* Tekstkleur ingesteld op zwart */
   border: none;
   padding: 10px 20px;
   border-radius: 3px;
