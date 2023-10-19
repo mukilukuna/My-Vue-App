@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import CustomIcon from '@/components/CustomIcon.vue' // Importeer je aangepaste icon component
+import CustomIcon from '@/components/CustomIcon.vue'
 
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
