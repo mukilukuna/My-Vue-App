@@ -40,13 +40,13 @@ header {
 h1 {
   font-size: 36px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: black;
   margin-top: 20px;
 }
 
 .description {
   font-size: 18px;
-  color: rgb(0, 0, 0);
+  color: black;
   margin-top: 10px;
 }
 </style>

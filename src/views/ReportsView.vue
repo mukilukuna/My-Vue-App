@@ -1,27 +1,27 @@
 <template>
   <div class="reports">
     <header>
-      <h1 class="text-dark">Rapportages</h1>
-      <p class="text-dark">Hier vind je de rapportages.</p>
+      <h1>Rapportages</h1>
+      <p>Hier vind je de rapportages.</p>
     </header>
 
     <section aria-labelledby="executed-inspections-label">
-      <h2 id="executed-inspections-label" class="text-dark">Uitgevoerde Inspecties</h2>
+      <h2 id="executed-inspections-label">Uitgevoerde Inspecties</h2>
       <ul>
         <li v-for="(inspection, index) in executedInspections" :key="index">
-          <p class="text-dark"><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
-          <p class="text-dark"><strong>Locatie:</strong> {{ inspection.location }}</p>
-          <p class="text-dark"><strong>Inspecteur:</strong> {{ inspection.inspector }}</p>
+          <p><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
+          <p><strong>Locatie:</strong> {{ inspection.location }}</p>
+          <p><strong>Inspecteur:</strong> {{ inspection.inspector }}</p>
         </li>
       </ul>
     </section>
 
     <section aria-labelledby="pending-inspections-label">
-      <h2 id="pending-inspections-label" class="text-dark">Openstaande Inspecties</h2>
+      <h2 id="pending-inspections-label">Openstaande Inspecties</h2>
       <ul>
         <li v-for="(inspection, index) in pendingInspections" :key="index">
-          <p class="text-dark"><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
-          <p class="text-dark"><strong>Locatie:</strong> {{ inspection.location }}</p>
+          <p><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
+          <p><strong>Locatie:</strong> {{ inspection.location }}</p>
         </li>
       </ul>
     </section>

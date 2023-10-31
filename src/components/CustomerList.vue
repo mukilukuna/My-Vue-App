@@ -32,16 +32,11 @@
 
 <script>
 export default {
-  name: 'CustomerList'
+  name: 'DashboardMenu' // Gewijzigde naam naar 'DashboardMenu'
 }
 </script>
 
-<style>
-nav {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
+<style scoped>
 
 .menu-item {
   display: flex;

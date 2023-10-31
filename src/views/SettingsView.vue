@@ -6,7 +6,7 @@
       <p><strong>Gebruikersnaam:</strong> KBouter</p>
       <p><strong>Naam:</strong> Karel Bouter</p>
       <p><strong>Email:</strong> KarelBouter@example.com</p>
-      <p><strong>Wachtwoord:</strong> [Wachtwoord wijzigen optie]</p>
+      <p><strong>Wachtwoord:</strong> <a href="#">Wachtwoord wijzigen</a></p>
     </div>
     <div>
       <h3>Voorkeuren</h3>
@@ -29,5 +29,19 @@ export default {
   padding: 20px;
   border: 1px solid rgba(41, 52, 57, 1);
   border-radius: 5px;
+}
+
+.settings h2,
+.settings h3 {
+  color: rgba(71, 94, 108, 1);
+}
+
+.settings p {
+  color: black;
+}
+
+.settings a {
+  text-decoration: none;
+  color: rgba(0, 170, 162, 1);
 }
 </style>

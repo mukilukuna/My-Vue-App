@@ -1,7 +1,7 @@
-<!-- CustomIcon.vue -->
 <template>
-    <img src="~@/assets/documentation-icon.png" alt="Custom Icon" />
+    <img src="~@/assets/documentation-icon.png" alt="Documentatie Pictogram" />
 </template>
+
 
 <script>
 export default {

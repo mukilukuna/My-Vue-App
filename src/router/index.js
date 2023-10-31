@@ -10,37 +10,37 @@ import LoginView from '../views/LoginView.vue'
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
   },
   {
     path: '/about',
-    name: 'about',
+    name: 'About',
     component: AboutView
   },
   {
     path: '/contact',
-    name: 'contact',
+    name: 'Contact',
     component: ContactView
   },
   {
     path: '/reports',
-    name: 'reports',
+    name: 'Reports',
     component: ReportsView
   },
   {
     path: '/documentation',
-    name: 'documentation',
+    name: 'Documentation',
     component: DocumentationView
   },
   {
     path: '/settings',
-    name: 'settings',
+    name: 'Settings',
     component: SettingsView
   },
   {
     path: '/login',
-    name: 'login',
+    name: 'Login',
     component: LoginView
   }
 ]
