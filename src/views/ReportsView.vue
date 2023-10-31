@@ -1,13 +1,16 @@
 <template>
+  <!-- Gebruik een beschrijvend hoofdelement voor de sectie -->
   <div class="reports">
     <header>
       <h1>Rapportages</h1>
       <p>Hier vind je de rapportages.</p>
     </header>
 
+    <!-- Gebruik ARIA-labels voor toegankelijkheid -->
     <section aria-labelledby="executed-inspections-label">
       <h2 id="executed-inspections-label">Uitgevoerde Inspecties</h2>
       <ul>
+        <!-- Gebruik een key voor v-for-lussen -->
         <li v-for="(inspection, index) in executedInspections" :key="index">
           <p><strong>Inspectie Datum:</strong> {{ inspection.date }}</p>
           <p><strong>Locatie:</strong> {{ inspection.location }}</p>
@@ -62,6 +65,7 @@ export default {
 
 <style scoped>
 .reports {
+  /* Gebruik RGBA-kleurwaarden voor kleuren */
   background-color: rgba(0, 170, 162, 1);
   color: rgba(41, 52, 57, 1);
   padding: 20px;
@@ -71,6 +75,7 @@ export default {
 
 .reports h1,
 .reports h2 {
+  /* Gebruik RGBA-kleurwaarden voor kleuren */
   color: rgba(71, 94, 108, 1);
 }
 
